@@ -1,0 +1,35 @@
+footer {
+  padding: 5px 1rem;
+  background-color: #1f1c24;
+}
+
+.icon {
+  font-size: var(--icon-size);
+  color: var(--primary-color);
+}
+
+h3 {
+  font-size: var(--h3-size);
+}
+.items-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-l:hover {
+  color: #10c286;
+}
+
+@media (max-width: 750px) {
+  footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+}

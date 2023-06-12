@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Movie App Tecsup</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav" id="nav">
+        <div class="container d-flex container-flex al-center m-auto">
+          <a href="#">
+            <img
+              src="./img/logo-white.svg"
+              alt="Pelispro logo"
+              class="img-logo"
+            />
+          </a>
+
+          <ul class="list--menu d-flex gap-xs">
+            <li><a class="link nav-l" href="#">Inicio</a></li>
+            <li><a class="link nav-l" href="#estrenos">Estrenos</a></li>
+            <li><a class="link nav-l" href="#">Foro</a></li>
+            <li><a class="link nav-l" href="#">Conócenos</a></li>
+          </ul>
+
+          <div class="d-flex login gap-xs login-flex">
+            <a class="link button" href="#">Entrar</a>
+            <a class="link button" href="#">Regístrate</a>
+          </div>
+          
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article class="hero d-flex hero-principal">
+        <div class="container m-auto d-flex al-center">
+          <div class="movie-info">
+            <h1>Transformers: El despertar de las bestias</h1>
+            <p class="text text-gray">2h 7min • 2023 • Ciencia Ficción • Acción</p>
+            <p class="text">
+              Sigue durante los 90 a una nueva facción de los Transformers, los Maximals y como se unen a los Autobots como aliados en una batalla por el planeta Tierra.
+            </p>
+            <div class="movie-buttons d-flex gap-xs">
+              <a class="link button" href="">Ver Ahora</a>
+              <a class="link button" href="https://www.imdb.com/video/vi4232692761/?ref_=vp_wbr_btf_tp_vp" target="_blank">Ver Trailer</a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <section class="premieres d-flex" id="estrenos">
+        <div class="container m-auto">
+          <h2 class="title text-center">Próximos Estrenos</h2>
+          <div class="card-container"></div>
+          <div class="slider-buttons">
+              <button class="slider-button prev-button">&#10094;</button>
+              <button class="slider-button next-button">&#10095;</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <nav>
+          <div class="container container-flex d-flex  al-center m-auto"> 
+            <h3>Codigo Tecsup</h3>
+            <div class="enlaces">
+              <ul class="menu list--menu d-flex gap-xs items-center">
+                <li><a class="nav-l link" href="#">Inicio</a></li>
+                <li><a class="nav-l link" href="#estrenos">Estrenos</a></li>
+                <li><a class="nav-l link" href="#">Buscar</a> </li>
+              </ul>
+            </div>
+            <div class="redes ">
+              <ul class="menu d-flex list--menu gap-xs ">
+                <li><a href="#"><i class="icon fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="icon fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="icon fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="icon fa-brands fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </footer>
+    <template id="template-premieres">
+      <figure class="card">
+        <img src="" alt="" />
+        <figcaption class="text"></figcaption>
+      </figure>
+    </template>
+    <script src="js/index.js"></script>
+  </body>
+</html>
