@@ -2,6 +2,7 @@
 
 Este proyecto es una aplicación web que muestra información sobre películas y próximos estrenos. Utiliza la API de The Movie Database (TMDb) para obtener datos actualizados sobre películas y mostrarlos de manera interactiva,  Puedes acceder a la aplicación en [este enlace](https://648699acc8f2a60b6c2a1731--papaya-kulfi-ea3ddf.netlify.app/) .
 
+![preview](./img/preview.jpg)
 
 
 ## Características
