@@ -23,4 +23,6 @@ Este proyecto es una aplicación web que muestra información sobre películas y
 ## Instalación
 
 1. Clona este repositorio en tu máquina local: 
+```shell
+git clone https://github.com/YanlDev/movie-tecsup.git
 
